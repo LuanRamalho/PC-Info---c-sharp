@@ -430,7 +430,7 @@ namespace PC_Info
                     "══════════════════════════════════════════════════════\r\n\r\n" +
 
                     $"Fabricante................: {manufacturer}\r\n" +
-                    $"Produto / código.........: {product}\r\n" +
+                    $"Produto / código..........: {product}\r\n" +
                     $"Modelo da placa...........: {model}\r\n" +
                     $"Número de série...........: {serial}\r\n" +
                     $"Versão....................: {version}\r\n" +
@@ -644,11 +644,11 @@ namespace PC_Info
                         $" PROCESSADOR {index}\r\n" +
                         "══════════════════════════════════════════════════════\r\n\r\n" +
 
-                        $"Nome.....................: {name}\r\n" +
+                        $"Nome......................: {name}\r\n" +
                         $"Fabricante................: {friendlyManufacturer}\r\n" +
                         $"Identificação original....: {manufacturer}\r\n" +
                         $"Descrição.................: {description}\r\n" +
-                        $"ID do dispositivo........: {deviceId}\r\n" +
+                        $"ID do dispositivo.........: {deviceId}\r\n" +
                         $"Socket....................: {socket}\r\n" +
                         $"Arquitetura...............: {architecture}\r\n" +
                         $"Núcleos físicos...........: {cores}\r\n" +
@@ -657,22 +657,22 @@ namespace PC_Info
 
                         "FREQUÊNCIAS\r\n" +
                         "──────────────────────────────────────────────────────\r\n" +
-                        $"Clock atual (WMI)........: {currentClockLine}\r\n" +
-                        $"Máximo informado pelo WMI: {wmiMaxClockLine}\r\n" +
-                        $"Frequência base.........: {baseClockLine}\r\n" +
-                        $"Turbo / Burst máximo....: {turboClockLine}\r\n" +
-                        $"Fonte da frequência.....: {frequencySource}\r\n\r\n" +
+                        $"Clock atual (WMI).........: {currentClockLine}\r\n" +
+                        $"Máximo informado pelo WMI.: {wmiMaxClockLine}\r\n" +
+                        $"Frequência base...........: {baseClockLine}\r\n" +
+                        $"Turbo / Burst máximo......: {turboClockLine}\r\n" +
+                        $"Fonte da frequência.......: {frequencySource}\r\n\r\n" +
 
                         "CACHE\r\n" +
                         "──────────────────────────────────────────────────────\r\n" +
-                        $"Cache L2.................: {FormatKB(l2)}\r\n" +
-                        $"Cache L3.................: {FormatKB(l3)}\r\n\r\n" +
+                        $"Cache L2..................: {FormatKB(l2)}\r\n" +
+                        $"Cache L3..................: {FormatKB(l3)}\r\n\r\n" +
 
                         "IDENTIFICAÇÃO\r\n" +
                         "──────────────────────────────────────────────────────\r\n" +
-                        $"Família..................: {family}\r\n" +
-                        $"Revisão..................: {revision}\r\n" +
-                        $"Processor ID.............: {processorId}\r\n\r\n" +
+                        $"Família...................: {family}\r\n" +
+                        $"Revisão...................: {revision}\r\n" +
+                        $"Processor ID..............: {processorId}\r\n\r\n" +
 
                         "CPUID\r\n" +
                         "──────────────────────────────────────────────────────\r\n" +
@@ -1120,7 +1120,7 @@ namespace PC_Info
                         $"Nome........................: {name}\r\n" +
                         $"Fabricante..................: {manufacturer}\r\n" +
                         $"Processador gráfico.........: {videoProcessor}\r\n" +
-                        $"Memória de vídeo...........: {FormatBytes(adapterRam)}\r\n" +
+                        $"Memória de vídeo............: {FormatBytes(adapterRam)}\r\n" +
                         $"Driver......................: {driverVersion}\r\n" +
                         $"Data do driver..............: {FormatWmiDate(driverDate)}\r\n" +
                         $"Resolução atual.............: {currentWidth} x {currentHeight}\r\n" +
@@ -1363,9 +1363,9 @@ namespace PC_Info
                         $"Build......................: {build}\r\n" +
                         $"Arquitetura................: {architecture}\r\n" +
                         $"Número de série............: {serial}\r\n" +
-                        $"Usuário registrado........: {registeredUser}\r\n" +
+                        $"Usuário registrado.........: {registeredUser}\r\n" +
                         $"Organização................: {organization}\r\n" +
-                        $"Data de instalação........: {installDate}\r\n" +
+                        $"Data de instalação.........: {installDate}\r\n" +
                         $"Última inicialização.......: {lastBoot}\r\n" +
                         $"Diretório do Windows.......: {windowsDirectory}\r\n" +
                         $"Diretório do sistema.......: {systemDirectory}\r\n" +
